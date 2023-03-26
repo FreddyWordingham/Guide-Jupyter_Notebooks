@@ -10,3 +10,4 @@ Setup and use a Jupyter Notebook Python environment using Poetry
 
 -   [0 Setup](./chapters/0-Setup/README.md)
 -   [1 Notebook](./chapters/1-Notebook/README.md)
+-   [2 Dependencies](./chapters/2-Dependencies/README.md)

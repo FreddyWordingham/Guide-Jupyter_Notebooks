@@ -2,7 +2,7 @@
 
 We'll create the minimal file structure for a Python project using the Poetry package manager with the Jupyter notebooks tool installed.
 
-## Add pyproject.toml
+## Poetry init
 
 Create a new Poetry project:
 
@@ -20,16 +20,7 @@ poetry init
 
 This will generate a [`pyproject.toml`](./pyproject.toml) file containing the project metadata.
 
-## Create a package directory
-
-Although we won't use it immediately, we're going to create a `my_notes` directory to contain the code for our package.
-
-```shell
-mkdir my_notes
-touch my_notes/__init__.py
-```
-
-We'll add an empty [`__init__.py`](./my_notes/__init__.py) file to the directory so that Python recognises it as a package.
+As we're not building a package here, we'll remove the `packages` section from the `pyproject.toml` file.
 
 ## Install the package
 
@@ -52,7 +43,7 @@ curl -L https://www.toptal.com/developers/gitignore/api/python > .gitignore
 
 Alternatively, you can go to [gitignore.io](https://gitignore.io/) and generate a template more tailored to your needs.
 
-## Add dependencies
+## Add Jupyter
 
 We're going to need the `jupyter` tool to get started:
 

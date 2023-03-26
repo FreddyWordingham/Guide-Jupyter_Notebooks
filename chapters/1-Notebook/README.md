@@ -28,12 +28,6 @@ Then add a title to the notebook by changing the first cell type to `Markdown` a
 # My Favorite Places
 ```
 
-Beneath it, add `import my_notes` package to check that everything is working:
-
-```python
-import my_notes
-```
-
 ![Jupyter notebook](./images/notebook.png)
 
 ## Return
