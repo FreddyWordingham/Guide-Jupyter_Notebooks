@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "my-notes"
+version = "0.1.0"
+description = "Jupyter notebook example."
+authors = ["FreddyWordingham <freddy@digilab.co.uk>"]
+readme = "README.md"
+packages = [{include = "my_notes"}]
+
+[tool.poetry.dependencies]
+jupyter = "^1.0.0"
+python = "^3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
